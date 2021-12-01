@@ -4,6 +4,10 @@ public class Aluno {
     public int matricula;
     public int media;
 
+    public Aluno(int matricula) {
+        this.matricula= matricula;
+    }
+
     public int getMatricula() {return matricula;}
     public void setMatricula(int matricula) {this.matricula = matricula;}
 
